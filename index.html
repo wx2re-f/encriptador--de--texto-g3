@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv= "X-UA-Compatible"  content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="author" content="Paola Alejandra Romero">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <enlace rel="preconectar" href="https://fonts.googleapis.com">
+<enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+<enlace href="https: //fonts.googleapis.com/css2? family= Montserrat:wght@600 & family= Roboto+Mono:ital@1 & family= Spectral:wght@500 & display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+  </head>
+  <body>
+    <script>
+        alert("Usted está por ingresar a la página: Encriptador de Texto.");
+    </script>
+    <header class="cabecera">
+      <nav class="nav">
+      <div class="caja">
+        <h1>  <img src="imagenes/vector.png" alt="logo de alura con la inicial da la letra a"</h1>
+        </div>
+  <div class="titulo">
+    <h1>Encriptador de Texto</h1>
+  </div>
+</nav>
+    </header>
+<br>
+<br>
+<br>
+<br>
+<main>
+  <section class="entrada-texto">
+    <!-- textarea representa un control para la edición mutilínea de texto sin formato.
+-El atributo placeholder se define como una indicación corta que puede consistir en una solo palabra o en una
+ pequeña frase. Es aceptado en los elementos input y textarea.
+-Utlizamos el evento onclick:te permite ejecutar una función cuando se le da clic a un elemento-->
+<textarea class="input-texto" rows="6" cols="40" placeholder="Ingrese el texto aquí"></textarea>
+<div class="div-text">
+<label for="">❕ Solo letras minúsculas sin acentos y números</label>
+</div>
+<br>
+<br>
+<div class="botones">
+  <button class="encriptar-boton" onclick="botonEncriptar()">🔒 Encriptar</button>
+  <button class="desencriptar-boton" onclick="botonDesencriptar()">🔓 Desencriptar</button>
+</div>
+  </section>
+  <section class="text-salida">
+<div class="div-textsalida">
+
+  <textarea class="mensaje" rows="8" cols="18" placeholder="No hay mensaje"></textarea>
+  <button class="copiar-boton" onclick="copiar()">📄 Copiar</button>
+</div>
+
+  </section>
+</main>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<footer class="contenedor-footer">
+    <section class="Copyright">
+    <p>&copy Copyright Paola Alejandra Romero - Web Developer / 2022</p>
+                </section>
+        </footer>
+<script src="script.js">
+
+</script>
+  </body>
+</html>
